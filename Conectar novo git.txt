@@ -1,0 +1,8 @@
+git init .
+git remote add origin (link do repositorio)
+git add .
+git config user.name "MatheusSigo"
+git config user.email "matheussigolineberts@gmail.com"
+git commit -m "First commit"
+git branch -M main
+git push origin main

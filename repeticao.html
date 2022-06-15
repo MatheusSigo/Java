@@ -1,7 +1,11 @@
 <script>
     const myText = "olá Terceiro Ano"
+    let letras = 0;
     for(let i=0; i < myText.length; i++){
         console.log(myText[i]);
+        if(myText[i]==='a'){
+            letras ++;
+        }
     }
-    myText = "Mudando o conteudogit"
+    console.log("A quantidade de letras é ..: "+ letras)
 </script>
